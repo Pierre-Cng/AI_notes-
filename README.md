@@ -26,7 +26,8 @@ Check demo [here](demo_1.py).
 
 2) Data representations for neural networks
 
-Check demo [here](demo_2.py)  
+Check demo [here](demo_2.py).  
+
 See also, real world examples of data tensors: 
 * Vector data—2D tensors of shape (samples, features)
 * Timeseries data or sequence data—3D tensors of shape (samples, timesteps, features)
