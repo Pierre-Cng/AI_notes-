@@ -20,11 +20,11 @@ Core infos:
 
 ### Chapter II: Before we begin: the mathematical building blocks of neural networks
 
-1) A first look at a neural network
+#### 1) A first look at a neural network
 
 Check demo [here](demo_1.py).
 
-2) Data representations for neural networks
+#### 2) Data representations for neural networks
 
 Check demo [here](demo_2.py).  
 
@@ -34,4 +34,4 @@ See also, real world examples of data tensors:
 * Images—4D tensors of shape (samples, height, width, channels) or (samples, channels, height, width)
 * Video—5D tensors of shape (samples, frames, height, width, channels) or (samples, frames, channels, height, width)
 
-3) The gears of neural networks: tensor operations
+#### 3) The gears of neural networks: tensor operations
