@@ -5,9 +5,10 @@ Notes about AI / Machine learning / Deep learning.
 
 Link of the book [here](https://docs.google.com/viewer?a=v&pid=sites&srcid=dW10LmVkdS5wa3xzbmxwfGd4Ojc1ODc1ODY2OTZiOTUzOGQ).  
 
+Core infos:
+
 ### Chapter I: What is deep learning?
 
-Core infos:
 * distinction between artificial intelligence, machine learning and deep learning.
 * Brief history of machine learning.
 * Different machine learning approaches mentionned:
