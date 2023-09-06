@@ -5,12 +5,12 @@ Notes about AI / Machine learning / Deep learning.
 
 ### Chapter I: What is deep learning?
 Core infos:
-* distinction between artificial intelligence, machine learning and deep learning
-* Brief history of machine learning 
+* distinction between artificial intelligence, machine learning and deep learning.
+* Brief history of machine learning.
 * Different machine learning approaches mentionned:
     * Probabilistic modeling,
     * Early neural networks,
     * Kernel methods,
-    * Decision trees, random forests
-    * Gradient boosting machines
+    * Decision trees and random forests,
+    * Gradient boosting machines.
 * Discussion on the actual context and possible future of the AI.
