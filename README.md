@@ -46,3 +46,21 @@ Notions about tensor operations:
 * A geometric interpretation of deep learning
 
 #### 4) The engine of neural networks: gradient-based optimization
+
+Notions of:
+* What's a derivative?
+* Derivative of a tensor operation: the gradient
+* Stochastic gradient descent
+* Chaining derivatives: the Backpropagation algorithm
+* Applying knowledge on code used on [demo 1](demo_1.py)
+
+Chapter summary:
+
+* Learning: finding a combination of weights that minimizes a loss function for a given set of training data samples and their corresponding targets.
+* It happens by drawing random batches of data samples and their targets, and computing the gradient of the weights with respect to the loss on the batch. The weights are then moved a bit in the opposite direction from the gradient.
+* Neural networks are chains of differentiable tensor operations, using chain rule of derivation to find the gradient function mapping the current weights and current batch of data to a gradient value.
+* Loss and optimizers are the two functions you need to define before you begin feeding data into a network.
+* The loss is the quantity you’ll attempt to minimize during training, so it should represent a measure of success for the task you’re trying to solve.
+* The optimizer specifies the exact way in which the gradient of the loss will be used to update parameters: for instance, it could be the RMSProp optimizer, SGD with momentum, and so on.
+
+### Chapter III: Getting started with neural networks
