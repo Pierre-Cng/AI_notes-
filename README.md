@@ -80,4 +80,4 @@ More than linear stack of layers, mapping a single input to a single output, var
 * Multihead networks
 * Inception blocks
 
-> Picking the right network architecture is more an art than a science; and although there are some best practices and principles you can rely on, only practice can help you become a proper neural-network architect.
+> "Picking the right network architecture is more an art than a science; and although there are some best practices and principles you can rely on, only practice can help you become a proper neural-network architect."
