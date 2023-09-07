@@ -44,3 +44,5 @@ Notions about tensor operations:
 * Tensor reshaping
 * Geometric interpretation of tensor operations
 * A geometric interpretation of deep learning
+
+#### 4) The engine of neural networks: gradient-based optimization
