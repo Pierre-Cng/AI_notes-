@@ -81,3 +81,14 @@ More than linear stack of layers, mapping a single input to a single output, var
 * Inception blocks
 
 > "Picking the right network architecture is more an art than a science; and although there are some best practices and principles you can rely on, only practice can help you become a proper neural-network architect."
+
+**Loss functions and optimizers: keys to configuring the learning process**
+
+Use:
+* Binary crossentropy for a two-class classification problem,
+* Categorical crossentropy for a many-class classification problem,
+* Meansquared error for a regression problem,
+* Connectionist temporal classification (CTC) for a sequence-learning problem.
+
+**Introduction to Keras**
+
