@@ -54,7 +54,7 @@ Notions of:
 * Chaining derivatives: the Backpropagation algorithm
 * Applying knowledge on code used on [demo 1](demo_1.py)
 
-Chapter summary:
+#### Chapter summary:
 
 * Learning: finding a combination of weights that minimizes a loss function for a given set of training data samples and their corresponding targets.
 * It happens by drawing random batches of data samples and their targets, and computing the gradient of the weights with respect to the loss on the batch. The weights are then moved a bit in the opposite direction from the gradient.
@@ -64,3 +64,20 @@ Chapter summary:
 * The optimizer specifies the exact way in which the gradient of the loss will be used to update parameters: for instance, it could be the RMSProp optimizer, SGD with momentum, and so on.
 
 ### Chapter III: Getting started with neural networks
+
+#### 1) Anatomy of a neural network
+
+**Layers: the building blocks of deep learning**  
+
+* Simple vector data, stored in 2D tensors of shape (samples, features) -> Dense class in Keras
+* Sequence data, stored in 3D tensors of shape (samples, timesteps, features) -> recurrent layers such as an LSTM layer.
+* Image data, stored in 4D tensors -> 2D convolution layers (Conv2D)
+
+**Models: networks of layers**  
+
+More than linear stack of layers, mapping a single input to a single output, variety of network topologies exists such as:
+* Two-branch networks
+* Multihead networks
+* Inception blocks
+
+> Picking the right network architecture is more an art than a science; and although there are some best practices and principles you can rely on, only practice can help you become a proper neural-network architect.
