@@ -36,3 +36,11 @@ See also, real world examples of data tensors:
 * Video—5D tensors of shape (samples, frames, height, width, channels) or (samples, frames, channels, height, width)
 
 #### 3) The gears of neural networks: tensor operations
+
+Notions about tensor operations:
+* Element-wise operations
+* Broadcasting
+* Tensor dot
+* Tensor reshaping
+* Geometric interpretation of tensor operations
+* A geometric interpretation of deep learning
