@@ -92,7 +92,6 @@ Use:
 
 **Introduction to Keras**
 
-[interest chart](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
-
+[interest chart](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
 
 
