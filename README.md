@@ -92,7 +92,7 @@ Use:
 
 **Introduction to Keras**
 
-![interest chart](https://sites.google.com/view/pierrecongiuconsulting/draft/first-step-in-deep-learning)
+[interest chart]([https://sites.google.com/view/pierrecongiuconsulting/draft/first-step-in-deep-learning](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
 
 
 
