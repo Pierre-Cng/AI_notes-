@@ -92,30 +92,16 @@ Use:
 
 **Introduction to Keras**
 
-{{<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script> 
-   <script type="text/javascript"> 
-      trends.embed.renderExploreWidget(
-         "TIMESERIES", 
-         {
-            "comparisonItem":[
-               {"keyword":"Keras","geo":"","time":"2004-01-01 2023-09-08"},
-               {"keyword":"TensorFlow","geo":"","time":"2004-01-01 2023-09-08"},
-               {"keyword":"Caffe","geo":"","time":"2004-01-01 2023-09-08"},
-               {"keyword":"Theano","geo":"","time":"2004-01-01 2023-09-08"},
-               {"keyword":"Torch","geo":"","time":"2004-01-01 2023-09-08"}],
-            "category":1299,"property":""
-         }, 
-         {
-            "exploreQuery":
-               "cat=1299&date=all&q=Keras,
-               TensorFlow,
-               Caffe,
-               Theano,
-               Torch&hl=fr",
-               "guestPath":"https://trends.google.com:443/trends/embed/"
-         }
-      ); 
-   </script>}}
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+   
 
 
 
