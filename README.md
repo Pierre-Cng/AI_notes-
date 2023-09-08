@@ -96,7 +96,7 @@ Use:
 <html>
 <body>
 
-   <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script> 
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script> 
    
 
 </body>
