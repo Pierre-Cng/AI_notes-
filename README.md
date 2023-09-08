@@ -92,7 +92,7 @@ Use:
 
 **Introduction to Keras**
 
-![tests](interest_chart.html)
+![interest chart](https://sites.google.com/view/pierrecongiuconsulting/draft/first-step-in-deep-learning)
 
 
 
