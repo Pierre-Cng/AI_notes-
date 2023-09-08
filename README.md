@@ -92,7 +92,7 @@ Use:
 
 **Introduction to Keras**
 
-   
+![tests](interest_chart.html)
 
 
 
