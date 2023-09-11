@@ -94,4 +94,3 @@ Use:
 
 [interest chart](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
 
-
