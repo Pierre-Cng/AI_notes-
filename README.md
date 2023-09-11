@@ -124,4 +124,30 @@ Run Keras experiment on a Jupiter notebook (recommended) local or cloud dependin
 #### 4) Classifying movie reviews: a binary classification example
 
 Check demo [here](demo_3.py).  
+Check demo [here](demo_3_1.py).  
 
+NB:
+* Sequences of words can be encoded as binary vectors for example.
+* Stacks of Dense layers with relu activations can solve a wide range of problems (including sentiment classification).
+* In a binary classification problem (two output classes) -> network should end with a Dense layer with one unit and a sigmoid activation: the output of the network should be a scalar between 0 and 1, encoding a probability.
+* With such a scalar sigmoid output on a binary classification problem -> loss function is binary_crossentropy.
+* The rmsprop optimizer is a good enough choice for any problem.
+* Be careful of overfitting. Be sure to always monitor performance on data that is outside of the training set.
+
+#### 5) Classifying newswires: a multiclass classification example
+
+Check demo [here](demo_4.py).  
+
+Check demo [here](demo_4_1.py).  
+
+With integer labels, you should use sparse_categorical_crossentropy:
+```model.compile(optimizer='rmsprop', loss='sparse_categorical_crossentropy', metrics=['acc'])```
+
+NB:
+* Classify data points among N classes -> network should end with a Dense layer of size N.
+* In a single-label, multiclass classification problem -> network should end with a softmax activation so that it will output a probability distribution over the N output classes.
+* Categorical crossentropy is almost always the loss function to use for such problems. It minimizes the distance between the probability distributions output by the network and the true distribution of the targets.
+* 2 ways to handle labels in multiclass classification:
+    – Encoding the labels via categorical encoding (also known as one-hot encoding) and using categorical_crossentropy as a loss function
+    – Encoding the labels as integers and using the sparse_categorical_crossentropy loss function
+* When large number of categories -> avoid information bottlenecks due to too small intermediate layers.
