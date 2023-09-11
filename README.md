@@ -105,4 +105,17 @@ Keras is able to run on CPUs and GPUs:
 * On CPU -> using Eigen (http://eigen.tuxfamily.org)
 * On GPU -> using NVIDIA CUDA Deep Neural Network library (cuDNN).
 
+**Developing with Keras: a quick overview**
+
+Keras workflow looks just like that example:
+1) Define your training data: input tensors and target tensors.
+2) Define a network of layers (or model ) that maps your inputs to your targets.
+3) Configure the learning process by choosing a loss function, an optimizer, and some metrics to monitor.
+4) Iterate on your training data by calling the fit() method of your model.
+
+Two ways to define a model: 
+* Using the Sequential class (only for linear stacks of layers)
+* using the functional API (for directed acyclic graphs of layers, which lets you build completely arbitrary architectures).
+
+
 
