@@ -94,3 +94,15 @@ Use:
 
 [interest chart](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
 
+**Keras, TensorFlow, Theano, and CNTK**
+ 
+Three existing backend implementations: 
+* TensorFlow
+* Theano
+* Microsoft Cognitive Toolkit (CNTK)
+
+Keras is able to run on CPUs and GPUs:
+* On CPU -> using Eigen (http://eigen.tuxfamily.org)
+* On GPU -> using NVIDIA CUDA Deep Neural Network library (cuDNN).
+
+
