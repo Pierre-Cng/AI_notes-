@@ -90,7 +90,7 @@ Use:
 * Meansquared error for a regression problem,
 * Connectionist temporal classification (CTC) for a sequence-learning problem.
 
-**Introduction to Keras**
+#### 2) Introduction to Keras
 
 [interest chart](https://trends.google.com/trends/explore?cat=1299&date=all&q=Keras,TensorFlow,Theano,Torch,Pytorch&hl=fr)
 
@@ -117,5 +117,11 @@ Two ways to define a model:
 * Using the Sequential class (only for linear stacks of layers)
 * using the functional API (for directed acyclic graphs of layers, which lets you build completely arbitrary architectures).
 
+#### 3) Setting up a deep-learning workstation
 
+Run Keras experiment on a Jupiter notebook (recommended) local or cloud depending on budget and GPU capacity. 
+
+#### 4) Classifying movie reviews: a binary classification example
+
+Check demo [here](demo_3.py).  
 
