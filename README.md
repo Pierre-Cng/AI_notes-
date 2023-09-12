@@ -151,3 +151,27 @@ NB:
     – Encoding the labels via categorical encoding (also known as one-hot encoding) and using categorical_crossentropy as a loss function
     – Encoding the labels as integers and using the sparse_categorical_crossentropy loss function
 * When large number of categories -> avoid information bottlenecks due to too small intermediate layers.
+
+#### 6) Predicting house prices: a regression example
+
+Check demo [here](demo_5.py).  
+
+Check demo [here](demo_5_1.py).  
+
+NB:
+* Regression -> different loss functions than classification -> Mean squared error (MSE) is a common loss function.
+* Different metrics for regression -> accuracy doesn’t apply for regression -> common regression metric is mean absolute error (MAE).
+* When input data have values in different ranges -> should be scaled independently as a preprocessing step.
+* When little data available -> K-fold validation is a great way to reliably evaluate a model.
+* When little training data -> use a small network with few hidden layers (typically only one or two) to avoid overfitting.
+
+#### Chapter summary:
+
+Notions:
+* Tasks on vector data: binary classification, multiclass classification, and scalar regression. 
+* Preprocess raw data, scale each feature.
+* Avoid overfitting.
+* Small training data = small network with only one or two hidden layers, to avoid overfitting.
+* Little data = K-fold validation can help evaluate your model.
+* /!\ Info bottleneck hapened when intermediate layers too small.
+* Regression = different loss functions / metrics than classification.
