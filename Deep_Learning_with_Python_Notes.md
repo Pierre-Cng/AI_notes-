@@ -170,5 +170,5 @@ Notions:
 * Avoid overfitting.
 * Small training data = small network with only one or two hidden layers, to avoid overfitting.
 * Little data = K-fold validation can help evaluate your model.
-* /!\ Info bottleneck hapened when intermediate layers too small.
+* /!\ Info bottleneck happened when intermediate layers too small.
 * Regression = different loss functions / metrics than classification.
