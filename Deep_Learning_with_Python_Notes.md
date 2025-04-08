@@ -172,3 +172,57 @@ Notions:
 * Little data = K-fold validation can help evaluate your model.
 * /!\ Info bottleneck happened when intermediate layers too small.
 * Regression = different loss functions / metrics than classification.
+
+## Chapter IV: Fundamentals of machine learning
+
+### 1) Four branches of machine learning
+
+**Supervised learning**
+
+**Unsupervised learning**
+
+**Self-supervised learning**
+
+**Reinforcement learning** 
+
+
+machine-learning-specific definitions:
+* Sample or input: One data point that goes into your model.
+* Prediction or output: What comes out of your model.
+* Target: The truth. What your model should ideally have predicted, according to an external source of data.
+* Prediction error or loss value: measure of distance between your model’s prediction and the target.
+* Classes:  set of possible labels to choose from in a classification problem.
+* Label: specific instance of a class annotation in a classification problem.
+* Ground-truth or annotations: All targets for a dataset, typically collected by humans.
+* Binary classification: each input sample should be categorized into two exclusive categories.
+* Multiclass classification: each input sample should be categorized into more than two categories.
+* Multilabel classification: each input sample can be assigned multiple labels.
+* Scalar regression: target is a continuous scalar value (e.g. Predicting house prices).
+* Vector regression: target is a set of continuous values (such as the coordinates of a bounding box in an image).
+* Mini-batch or batch: A small set of samples (typically between 8 and 128) processed simultaneously by the model. 
+
+### 2) Evaluating machine-learning models
+
+**Training, validation, and test sets**
+
+NB:
+* Splitting  data into three sets: training, validation, and test. 
+* The number of layers or the size of the layers is called hyperparameters of the model (!= parameters -> network’s weights). 
+* Three classic evaluation recipes to split data: simple hold-out validation, K-fold validation, and iterated K-fold validation with shuffling.
+* A good practice: randomly shuffle your data in the first place.
+* If you’re trying to predict the future given the past -> DO NOT randomly shuffle your data before splitting it. You should always make sure all data in your test set is posterior to the data in the training set. (You want to test the futur on past trained data)
+* If some data points in your data appear twice -> Make sure your training set and validation don't contain the same data.
+
+### 3) Data preprocessing, feature engineering, and feature learning
+
+**Data preprocessing for neural networks**
+
+* Vectorization
+* Value normalization
+* Handling missing values
+
+### 4) Overfitting and underfitting
+
+**Regularization technics:**
+
+* Reducing the network’s size
